@@ -17,8 +17,6 @@ class ProfilePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text(user.name, style: TextStyle(color: Colors.black)), // Title text color
-        actions: [
-        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),

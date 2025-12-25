@@ -78,7 +78,7 @@ class UsersListPage extends StatelessWidget {
 
                 if (provider.error != null) {
                   return const Center(
-                    child: Text('Oops! Something went wrong 😢'),
+                    child: Text('Oops! Something went wrong'),
                   );
                 }
 
